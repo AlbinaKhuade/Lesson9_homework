@@ -16,6 +16,9 @@ int Ackermann(int num1, int num2)
 }
 
 int res = 0;
-if (number1 < 0 || number2 < 0) Console.WriteLine("Вы ввели отирцательные числа!");
-else res = Ackermann(number1, number2);
-Console.WriteLine(res);
+if (number1 < 0 || number2 < 0) Console.WriteLine("Вы ввели отрицательные числа!");
+else
+{
+    res = Ackermann(number1, number2);
+    Console.WriteLine(res);
+}
